@@ -1,4 +1,4 @@
-from libs.openweathermap import CurrentWeather, StatisticalWeatherData
+from libs.openweathermap import CurrentWeather
 
 API_KEY = "813a7ac588302e96a5b068466ae2944f"
 city_name = input("Enter the city you want to have information from: ")
@@ -27,8 +27,3 @@ def print_information(user_input):
 
 
 menu()
-
-"""
-stat_weather_data = StatisticalWeatherData(API_KEY, city_name).latest()
-print(stat_weather_data)
-"""
