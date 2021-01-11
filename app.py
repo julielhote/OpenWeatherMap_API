@@ -26,7 +26,9 @@ def print_information(user_input):
     return print(current_weather[user_input])
 
 
-# menu()
+menu()
 
+"""
 stat_weather_data = StatisticalWeatherData(API_KEY, city_name).latest()
 print(stat_weather_data)
+"""
